@@ -1,0 +1,20 @@
+{
+  "name": "dirak-proxy",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/codenamesgroup/dirak-proxy.git",
+  "author": "fermi_dirac <ManueleBryan@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-http-proxy": "^1.1.0",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  }
+}
